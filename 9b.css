@@ -1,0 +1,55 @@
+html {
+    background-color: rgb(180, 175, 175);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&display=swap');
+
+header {
+    background-color: rgb(80, 26, 26);
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0;
+}
+
+nav li {
+    font-family: 'Lora', serif;
+    border: 1px solid rgb(42, 0, 0);
+    padding: 20px;
+}
+
+nav li:hover {
+    box-shadow: 0 0 4px 4px rgb(57, 2, 2);
+}
+
+nav li:first-child {
+    font-family: 'Dancing Script', cursive;
+}
+
+nav li:nth-child(5) {
+    box-shadow: 0 0 5px 5px rgb(46, 6, 83);
+}
+
+nav li:last-child {
+    background-color: rgb(34, 0, 0);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: rgb(222, 38, 130);
+}
